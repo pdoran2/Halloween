@@ -1,0 +1,29 @@
+body{
+font-family: Helvetica, Arial, sans-serif;
+font-size: 1em;
+}
+h1{
+    font-size: 2.6em;
+    text-indent: 50px;
+    color: darkorange;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+h2{
+    p::first-letter{
+        font-size: 200%;
+        color: black;
+    }
+}
+h4{
+    margin-left: 4cm; 
+}
+
+a:link{
+    color: darkorange;
+    font-weight: bold;
+}
+img {
+    float: left;
+    margin: 0 0 10px 10px;
+}
