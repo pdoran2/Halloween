@@ -1,20 +1,21 @@
 body{
+width: 800px;
 font-family: Helvetica, Arial, sans-serif;
 font-size: 1em;
+box-shadow: -5px 25px 30px black;
+margin: 0 auto;
+background-color: white;
 }
 h1{
     font-size: 2.6em;
     text-indent: 50px;
-    color: darkorange;
-    font-style: italic;
-    text-shadow: 2px 2px black;
-}
-h2{
-    p::first-letter{
+ }
+
+h2::first-letter{
         font-size: 200%;
         color: black;
-    }
 }
+
 h4{
     margin-left: 4cm; 
 }
@@ -23,7 +24,25 @@ a:link{
     color: darkorange;
     font-weight: bold;
 }
-img {
+ .pumpkin{
     float: left;
     margin: 0 0 10px 10px;
+}
+header{
+    border-bottom: solid black;
+    background: linear-gradient(45deg, white, orange, black);
+}
+footer{
+    text-align: center;
+    border-top: solid black;
+    background: linear-gradient(45deg,black,orange, white);
+}
+html{
+    background-image: url('../images/bats.gif');
+    background-repeat: repeat;
+}
+.Link{
+    float: left;
+    width: 160px;
+    height: 550px;
 }
